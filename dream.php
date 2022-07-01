@@ -31,14 +31,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="dream.php"><i class="fa-solid fa-money-bill-wave"></i> Home</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
-            </li>
+                <a class="nav-link" href="https://github.com/ch-sophie?tab=repositories"> Page</a>
         </ul>
         </div>
     </div>
@@ -271,18 +267,19 @@
         elseif($currency1 == "clp" && $currency2 == "sgd"){
             echo "<center>" . "Your amount is: " . $amount . " CLP " . " = " . $amount * 0.001508 . " SGD " . "</center>";
         }
-
         // else not valid
         else{
             echo "<center>" . "Sorry not available" . "</center>";
         }
-    
     }
     ?>
 
-
     <!-- footer -->
-
+    <footer class="bg-light text-center text-sm-start">
+        <div class="text-center p-3">
+        <i class="fa-regular fa-copyright"></i> 2022
+        </div>
+    </footer>
 
 </body>
 </html>
