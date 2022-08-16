@@ -19,9 +19,6 @@
 <body>
     <!-- header  -->
         <!-- navbar -->
-        <!-- <ul>
-            <li><a href="#"><i class="fa-solid fa-money-bill-wave"></i> Home</a></li>
-        </ul> -->
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
         <!-- <a class="navbar-brand" href="#">Navbar</a> -->
@@ -31,7 +28,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item">
-            <a class="nav-link" href="dream.php"><i class="fa-solid fa-money-bill-wave"></i> Home</a>
+            <a class="nav-link" href="index.php"><i class="fa-solid fa-money-bill-wave"></i> Home</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="https://github.com/ch-sophie?tab=repositories"> Page</a>
@@ -44,7 +41,7 @@
     <div class="container">
     <h1>Currency converter</h1>
     
-    <form action='dream.php' method='post'>
+    <form action='index.php' method='post'>
         <label for="currency">Amount </label>
             <input type="text" name="currency">
             <br>
